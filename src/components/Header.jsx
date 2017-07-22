@@ -5,3 +5,15 @@ import React from 'react';
 // be sure to include the classname 'Header' to get the correct styles
 
 // don't forget to export your component!
+
+
+const Header = () => {
+    return (
+        <div className="Header">
+            <ul>Home</ul>
+            <ul>Profile</ul>
+        </div>
+    )
+};
+
+export default Header;
