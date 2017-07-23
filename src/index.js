@@ -21,9 +21,5 @@ ReactDOM.render(
 );
 
 
-// ReactDOM.render(
-//     <MyHeaderComponent />,
-//     document.getElementById('my-header-component')
-// );
 
 // this anchors our react, everything is a deault export so no curly braces are needed

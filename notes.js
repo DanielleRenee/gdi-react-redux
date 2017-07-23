@@ -35,13 +35,11 @@ var pony = 'I have four legs'
 // iterates over an array, and returns a new array
 
 var numArray = [4, 6, 4, 7, 8];
-
-numArray.map((num)) => {
-  return num.square;
-});
+let squaredArray = numArray.map(num => num*num)
 
 
 const myFunction = (x, y, z)
+
 
 //className instead of class becuase JS is a reserved word
 // look up a ternary (conditional or if statement?)
@@ -60,3 +58,32 @@ const myFunction = (x, y, z)
 // canRide = height1 >= minAllowed?
 //     "You may pass!":
 //     "You shall not pass!"
+
+
+import React, { Component }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
