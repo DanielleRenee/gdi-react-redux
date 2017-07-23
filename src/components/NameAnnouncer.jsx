@@ -29,6 +29,12 @@ class NameAnnouncer extends Component {
         this.setState({
             inputValue: ''
         });
+
+        this.setState((prevState, props) => {
+            return {
+                toggle: !prevState.toggle
+            };
+        })
     }
 
      render () {
